@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Model files
+models/saved/*.pkl
+models/saved/*.joblib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
