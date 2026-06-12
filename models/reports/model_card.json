@@ -1,0 +1,27 @@
+{
+    "model_name": "CatBoost Churn Predictor",
+    "version": "1.0.0",
+    "trained_on": "2009-12-01 to 2011-12-09",
+    "features": [
+        "Frequency",
+        "Monetary",
+        "AvgOrderValue",
+        "AvgBasketSize",
+        "UniqueProducts",
+        "Tenure",
+        "ReturnRate",
+        "ReturnCount",
+        "PreferredDayOfWeek",
+        "PreferredMonth",
+        "Country_encoded"
+    ],
+    "n_features": 11,
+    "test_roc_auc": 0.9004,
+    "test_f1": 0.8,
+    "test_precision": 0.8182,
+    "test_recall": 0.7826,
+    "churn_threshold_days": 90,
+    "training_samples": 4702,
+    "test_samples": 1176,
+    "random_seed": 42
+}
